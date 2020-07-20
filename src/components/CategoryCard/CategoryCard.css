@@ -1,0 +1,30 @@
+.category-card {
+  height: 40vh;
+  border: 1.5px solid rgb(42, 117, 207);
+  border-radius: 10px;
+}
+.category-card:hover {
+  cursor: pointer;
+}
+.category-card-image {
+  height: 55%;
+  padding: 7px 7px 0 7px;
+}
+.category-card-header {
+  height: calc(45% - 7px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.category-card-image img {
+  height: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.category-card h4 {
+  text-align: center;
+  margin: 0;
+  color: rgb(42, 117, 207);
+  font-weight: 200;
+  letter-spacing: 1px;
+}
